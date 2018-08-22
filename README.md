@@ -1,16 +1,13 @@
 # RobboPy
 ROBBO module for python
------------------------
 A Python module for programming Robbo platform via Raspberry PI
 ===============================================================
 Adding
-------
 First of all install UART on your Raspberry PI and configure it
 Just copy file robbo.py to the same directory where your code is located an type
 import robbo
 ================================================================================
 Functions
----------
 robbo.motors(motorNumber, motorDirection, speede)
 This command lets you access to built-in engines
 The first argument is the number of engine 0/1
@@ -32,6 +29,5 @@ ultrasonic - ultrasonic distance sensor
 distance - standart distance sensor
 ================================================================================
 License
--------
 This project is under GNU general public license
 For more information please see LICENSE file
