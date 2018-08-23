@@ -41,7 +41,8 @@ def motor(motorNumber, motorDirection, speed): # working with built-in engines
             motorChar = 'd'
             
     uart(motorChar + str(speed) + "\n") # sending data via uart protocol
-    
+def rotate(direction, angle)
+    uart(str(direction) + str(angle) + "\n") # rotating on s certain angle  
 def flash(pad, state):      #working with flashlight
     uart(str(state) + str(pad) + "\n")
 
