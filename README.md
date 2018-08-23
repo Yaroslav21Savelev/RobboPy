@@ -14,10 +14,15 @@ import robbo
 -------------
 Functions
 ---------------
-robbo.motors(motorNumber, motorDirection, speede)
-----------
+robbo.motors(motorNumber, motorDirection, speed)
+-
 This command lets you access to built-in engines
--------------
+-
+robbo.rotate(direction, angle)
+-
+This command lets you rotate on a certain angle. direction a/d, angle 90/180/270
+----------
+
 The first argument is the number of engine 0/1
 ------------
 The second one is direction 0/1
